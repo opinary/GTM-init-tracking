@@ -1,0 +1,5 @@
+homepage: "https://opinary.com"
+documentation: "https://opinary.com"
+versions:
+  - sha: 14c1b9585684ec9c8859df491dd64d113b649e54
+    changeNotes: Initial release.

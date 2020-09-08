@@ -21,7 +21,8 @@ ___INFO___
   "description": "",
   "containerContexts": [
     "WEB"
-  ]
+  ],
+  "categories": ["AFFILIATE_MARKETING", "ADVERTISING"],
 }
 
 
@@ -31,8 +32,6 @@ ___TEMPLATE_PARAMETERS___
 
 
 ___SANDBOXED_JS_FOR_WEB_TEMPLATE___
-
-// Укажите здесь код шаблона.
 
 const log = require('logToConsole');
 const getParams = require('getQueryParameters');
@@ -45,8 +44,6 @@ if (params) {
   setCookie('opinaryTP', params);
 }
 
-
-// Вызовите data.gtmOnSuccess после выполнения тега.
 data.gtmOnSuccess();
 
 
