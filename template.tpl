@@ -22,7 +22,7 @@ ___INFO___
   "containerContexts": [
     "WEB"
   ],
-  "categories": ["AFFILIATE_MARKETING", "ADVERTISING"],
+  "categories": ["AFFILIATE_MARKETING", "ADVERTISING"]
 }
 
 
