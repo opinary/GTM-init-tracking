@@ -39,7 +39,10 @@ const setCookie = require('setCookie');
 const params = getParams('opinaryTP');
 
 if (params) {
-  setCookie('opinaryTP', params);
+  setCookie('opinaryTP', params, {
+    'path': '/',
+    'max-age': 86400 * 7
+  });
 }
 
 data.gtmOnSuccess();
