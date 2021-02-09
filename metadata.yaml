@@ -1,5 +1,7 @@
 homepage: "https://opinary.com"
 documentation: "https://opinary.com"
 versions:
+  - sha: 6f212abad21ccceb4ad2af7b7d2c90b3eda77b67
+    changeNotes: Change path and lifetime of cookie.
   - sha: af44a286f10721ed508e501fdca1ffab77de93e4
     changeNotes: Add Readme file and template description.
